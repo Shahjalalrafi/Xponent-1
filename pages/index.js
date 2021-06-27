@@ -6,8 +6,10 @@ import Banner from '../component/Banner'
 import BannerDetails from '../component/BannerDetails'
 import Integration from '../component/Integration'
 import ContentStack from '../component/ContentStack'
+import Partners from '../component/Partners'
 import Compromise from '../component/Compromise'
 import ChoseStack from '../component/ChoseStack'
+import Mack from '../component/Mack'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
       <BannerDetails />
       <Integration />
       <Compromise />
+      <Partners />
+      <Mack />
 
     </div>
   )

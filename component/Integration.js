@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from '../styles/Header.module.css'
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
