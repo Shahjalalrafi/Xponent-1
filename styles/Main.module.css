@@ -1,9 +1,18 @@
 .mainBg {
     background-image: url('../public/images/Waves.svg');
     background-size: cover;
-    height: 500px;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
+    padding: 60px 0;
     background-color: #2A0F57;
   }
   
+.banner {
+  background-image: url('../public/images/homePage_peopleStrip-2.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #2A0F57;
+}

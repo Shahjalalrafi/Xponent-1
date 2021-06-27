@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../component/Navbar'
 import Header from '../component/Header'
+import Banner from '../component/Banner'
+import BannerDetails from '../component/BannerDetails'
 import ContentStack from '../component/ContentStack'
 import ChoseStack from '../component/ChoseStack'
 import styles from '../styles/Home.module.css'
@@ -14,7 +16,9 @@ export default function Home() {
       <Header />
       <ContentStack />
       <ChoseStack />
-      
+      <Banner />
+      <BannerDetails />
+
     </div>
   )
 }

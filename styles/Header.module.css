@@ -1,8 +1,9 @@
 .header {
     background-image: url('../public/images/Homepage_header-0321.jpg');
     background-size: cover;
-    height: 500px;
+    height: 100%;
     width: 100%;
+    padding: 70px 0;
     background-repeat: no-repeat;
   }
   

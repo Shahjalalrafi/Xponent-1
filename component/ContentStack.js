@@ -35,7 +35,7 @@ const ContentStack = () => {
     return (
         <main className={styles.mainBg}>
             <Container>
-                <Grid container>
+                <Grid container spacing={3}>
                     <Grid item xm={12} md={5}>
                         <Image 
                             className={classes.img}
