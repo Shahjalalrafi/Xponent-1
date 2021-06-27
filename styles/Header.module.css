@@ -1,0 +1,19 @@
+.header {
+    background-image: url('../public/images/Homepage_header-0321.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  
+.headerText {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 70px 0px;
+}  
+
+.headerPara {
+    padding-top: 30px;
+}
