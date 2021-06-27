@@ -6,8 +6,6 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-        width: "100%",
-        height: "auto"
     },
     leftGrid: {
         backgroundColor: '#2A0F57'
@@ -21,9 +19,9 @@ const BannerDetails = () => {
     const classes = useStyles()
     return (
         <main className={classes.root}>
-                <Grid container spacing={3}>
+            <Grid container spacing={3}>
+                <Grid item xs={12} md={6} className={classes.leftGrid}>
                     <Container>
-                    <Grid item xs={12} md={6} className={classes.leftGrid}>
                         <Typography variant="h2">
                             Developers
                         </Typography>
@@ -36,25 +34,23 @@ const BannerDetails = () => {
                         <Button variant="contained" disableElevation className={classes.btn}>
                             LEARN MORE
                         </Button>
-                    </Grid>
-                    </Container>
-                    <Container>
-                    <Grid item xs={12} md={6} className={classes.rightGrid}>
-                        <Typography variant="h2">
-                            Developers
-                        </Typography>
-                        <Typography variant="h3">
-                            Free to Build. Freed from fixes.
-                        </Typography>
-                        <Typography variant="subtitle1">
-                            Finally developers can build cool digital experiences faster with an agnostic framework that makes integrations across multiple channels a breeze.
-                        </Typography>
-                        <Button variant="contained" disableElevation className={classes.btn}>
-                            LEARN MORE
-                        </Button>
-                    </Grid>
                     </Container>
                 </Grid>
+                <Grid item xs={12} md={6} className={classes.rightGrid}>
+                    <Typography variant="h2">
+                        Developers
+                    </Typography>
+                    <Typography variant="h3">
+                        Free to Build. Freed from fixes.
+                    </Typography>
+                    <Typography variant="subtitle1">
+                        Finally developers can build cool digital experiences faster with an agnostic framework that makes integrations across multiple channels a breeze.
+                    </Typography>
+                    <Button variant="contained" disableElevation className={classes.btn}>
+                        LEARN MORE
+                    </Button>
+                </Grid>
+            </Grid>
         </main>
     );
 }

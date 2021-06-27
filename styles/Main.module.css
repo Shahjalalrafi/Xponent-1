@@ -16,3 +16,13 @@
     background-repeat: no-repeat;
     background-color: #2A0F57;
 }
+
+.compromise {
+  background-image: url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blte0288e190676ee6b/606ede15e5ac4c2c44b76e28/CustomerSuccess_SVG.svg");
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #2A0F57;
+  padding: 60px 0;
+}
