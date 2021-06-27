@@ -1,8 +1,9 @@
-.header {
-    background-image: url('../public/images/Homepage_header-0321.jpg');
+.mainBg {
+    background-image: url('../public/images/Waves.svg');
     background-size: cover;
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
+    background-color: #2A0F57;
   }
   
