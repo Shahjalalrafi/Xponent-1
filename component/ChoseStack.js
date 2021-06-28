@@ -30,15 +30,11 @@ const useStyles = makeStyles({
         fontSize: '20px',
         fontWeight: '500'
     },
-    videoContainer: {
-        backgroundColor: "#EFEFEF",
-        border: '1px solid black',
-        margin: '0px 0 50px 50px',
-        width: '750px'
-    },
     video: {
         margin: '70px 0 50px 50px',
-        width: '200px'
+        border: '1px solid black',
+        backgroundColor: "#E5E5E5",
+        padding: '30px'
     }
 })
 
@@ -97,9 +93,7 @@ const ChoseStack = () => {
                         </Grid>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <div className={classes.videoContainer}>
                         <ReactPlayer url={video} className={classes.video} />
-                        </div>
                     </Grid>
                 </Grid>
             </Container>

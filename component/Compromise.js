@@ -57,7 +57,7 @@ const Compromise = () => {
                         <Button className={classes.btn}>LEARN ABOUT CUSTOMER CARE</Button>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                    <ReactPlayer url='https://youtu.be/djPpnQuBweM' className={classes.video} />
+                    <ReactPlayer url='https://youtu.be/djPpnQuBweM' />
                     </Grid>
                 </Grid>
                 <CompromiseDetails />
