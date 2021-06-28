@@ -26,3 +26,14 @@
   background-color: #2A0F57;
   padding: 60px 0;
 }
+
+.believe {
+  background-image: url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt02a3a1acb3df9482/5f8e2102e53bb90f6c28e703/Circle_deepViolet.svg");
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #2A0F57;
+  padding: 60px 0;
+  text-align: center;
+}

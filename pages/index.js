@@ -10,6 +10,8 @@ import Partners from '../component/Partners'
 import Compromise from '../component/Compromise'
 import ChoseStack from '../component/ChoseStack'
 import Mack from '../component/Mack'
+import Courses from '../component/Courses'
+import Believe from '../component/Believe'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -26,6 +28,8 @@ export default function Home() {
       <Compromise />
       <Partners />
       <Mack />
+      <Courses />
+      <Believe />
 
     </div>
   )

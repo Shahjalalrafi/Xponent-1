@@ -7,6 +7,9 @@ import Button from '@material-ui/core/Button';
 import img from '../public/images/partner3.png'
 
 const useStyles = makeStyles({
+    root: {
+        padding: "50px 0",
+    },
     img: {
         marginTop: '30px'
     },
@@ -32,7 +35,7 @@ const useStyles = makeStyles({
 const Mack = () => {
     const classes= useStyles()
     return (
-        <main >
+        <main className={classes.root}>
             <Container>
                 <Grid container className={classes.grid}>
                     <Grid item xs={12} md={4} align='center'>
