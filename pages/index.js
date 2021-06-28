@@ -11,6 +11,7 @@ import Compromise from '../component/Compromise'
 import ChoseStack from '../component/ChoseStack'
 import Mack from '../component/Mack'
 import Courses from '../component/Courses'
+import Footer from '../component/Footer'
 import Believe from '../component/Believe'
 import styles from '../styles/Home.module.css'
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Mack />
       <Courses />
       <Believe />
+      <Footer />
 
     </div>
   )
