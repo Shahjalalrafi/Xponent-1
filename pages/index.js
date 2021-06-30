@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../component/Navbar'
 import Header from '../component/Header'
 import Banner from '../component/Banner'
@@ -18,6 +17,10 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Home page</title>
+        <meta name="viewport" content="web developer, application" />
+      </Head>
      
       <Navbar />
       <Header />
